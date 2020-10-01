@@ -2,7 +2,8 @@
 main()
 {
     int n,i,j;
-    printf("enter the number of rows")
+    printf("Welcome to pattern printing!!!\n");
+    printf("Enter the number of rows\n");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
@@ -12,4 +13,5 @@ main()
         }
         printf("\n");
     }
+    return 0;
 }
